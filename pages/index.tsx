@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <p className="text-4xl">Cyclops</p>
+    <h2 className="text-4xl font-bold">Posts</h2>
   )
 }

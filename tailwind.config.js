@@ -8,6 +8,16 @@ module.exports = {
         title: "Bangers",
         sans: ["Source Sans Pro", ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: (theme) => ({
+        "screen-tone": "url('/screen_tone_single_dot.png')",
+      }),
+      backgroundSize: {
+        auto: "auto",
+        cover: "cover",
+        contain: "contain",
+        "40%": "40%",
+        16: "4rem",
+      },
     },
   },
   variants: {
