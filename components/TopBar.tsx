@@ -5,7 +5,7 @@ export default function TopBar() {
         <div className="w-full flex h-8 sm:h-12 md:h-16 justify-between items-center">
           <div className="flex space-x-2 items-center" id="title">
             <h1 className="sr-only">Oh Christ, Another X-Men Blog</h1>
-            <span className="font-title text-xl sm:text-4xl lg:text-6xl whitespace-nowrap">
+            <span className="font-heading text-xl sm:text-4xl lg:text-6xl whitespace-nowrap">
               Oh Christ, Another
             </span>
             <img
@@ -13,7 +13,7 @@ export default function TopBar() {
               src="/x-men-logo.png"
               alt="Uncanny X-Men Logo"
             />
-            <span className="font-title text-xl sm:text-4xl lg:text-6xl">
+            <span className="font-heading text-xl sm:text-4xl lg:text-6xl">
               Blog!
             </span>
           </div>

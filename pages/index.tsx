@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>Oh Christ, Another X-Men Blog</title>
       </Head>
-      <h2 className="text-4xl font-bold">Posts</h2>
+      <h2 className="text-4xl font-bold font-heading">Posts</h2>
     </>
   );
 }

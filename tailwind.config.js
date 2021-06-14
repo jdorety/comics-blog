@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        title: "Bangers",
+        heading: "Bangers",
         sans: ["Source Sans Pro", ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: (theme) => ({
